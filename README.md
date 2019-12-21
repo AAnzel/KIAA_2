@@ -7,7 +7,7 @@ Master Studije
 * Aleksandar Anžel 1025/2018
 
 ### Problem:
-* Implementacija AVL stabala pomoću C++ programskog jezika, zajedno sa pomoćnim funkcijama.
+* Implementacija AVL stabala pomoću C programskog jezika, zajedno sa pomoćnim funkcijama.
 * Analiza složenosti.
 
 ### Pokretanje:
