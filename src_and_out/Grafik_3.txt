@@ -1,0 +1,14 @@
+set terminal pngcairo size 800,600 enhanced font 'Verdana,10'
+set output 'izlaz_3.png'
+set xlabel 'Broj čvorova'
+set ylabel 'Prosečno vreme izvršavanja operacija, ns'
+set title 'Vremenska složenost operacija nad AVL stablima v1'
+set xtics nomirror
+set ytics nomirror
+set xtics 1000
+set ytics 100
+set grid xtics
+set grid ytics
+set grid back
+plot 'izlaz_3.txt' with points title 'Dobijene vrednosti', 'izlaz_3.txt' u 1:2 smooth bezier title 'Aproksimacija'
+replot
